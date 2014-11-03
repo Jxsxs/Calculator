@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from lettuce import *
+from lettuce import step, world
 from Calculator import Calculator
 
 @step(u'Tengo dos numeros (\d+)')
