@@ -1,6 +1,7 @@
 import unittest
 from Calculator import Calculator
 
+
 class TestCalculator(unittest.TestCase):
 
     def testsuma(self):
