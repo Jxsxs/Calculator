@@ -1,11 +1,7 @@
-
 import unittest
 from Calculator import Calculator
 
-
 class TestCalculator(unittest.TestCase):
-
-    #----------Suma-----------
 
     def testsuma(self):
         cal = Calculator()
@@ -19,7 +15,6 @@ class TestCalculator(unittest.TestCase):
         cal = Calculator()
         self.assertEqual(54, cal.suma(28, 26))
 
-#----------Resta-----------
     def testresta(self):
         cal = Calculator()
         self.assertEqual(45, cal.resta(78, 33))
@@ -32,7 +27,6 @@ class TestCalculator(unittest.TestCase):
         cal = Calculator()
         self.assertEqual(2, cal.resta(46, 44))
 
-#----------Multiplicacion-----------
     def testresta(self):
         cal = Calculator()
         self.assertEqual(32, cal.multiplicacion(8, 4))
@@ -45,7 +39,6 @@ class TestCalculator(unittest.TestCase):
         cal = Calculator()
         self.assertEqual(84, cal.multiplicacion(14, 6))
 
-#----------Division-----------
     def testresta(self):
         cal = Calculator()
         self.assertEqual(2, cal.division(45, 21))
